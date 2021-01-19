@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    font-family: 'Yusei Magic', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    font-size: 3.6vh;
+}
+
+h2 {
+    font-size: 2.4vh;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.2vh;
+}
+
+#top-left-corner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15vh 90vh 0 0;
+    border-color: white transparent transparent transparent
+}
+
+#bottom-left-corner {
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 0 0 15vh 90vh;
+    border-color: transparent transparent white transparent;
+}
+
+#landing-section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url("photos/pink-gradient-white-linear-1920x1080-c2-ffb6c1-ffffff-a-15-f-14.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#greeting-box {
+    width: 25%;
+    min-height: 40%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 20px;
+    border: solid 1px #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,.5);
+    box-sizing: border-box;
+}
+
+#greeting-box > h1 {
+    font-size: 3.6vh;
+}
+
+#greeting-box > h2 {
+    margin: 0;
+    font-size: 2.4vh;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#landing-button {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background-color: #FBB9C5;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: background-color, color 0.3s ease-in;
+}
+
+#landing-button:hover {
+    padding: 8px 10px;
+    font-family: 'Yusei Magic', sans-serif;
+    color: #FBB9C5;
+    background-color: white;
+    border: solid 2px #FBB9C5;
+}
+
+#greeting-animation-wrapper {
+    position: relative;
+    width: 50%;
+    height: 70%;
+    right: 30px;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.landing-gif {
+    width: 55%;
+}
+
+#tonton1 {
+    position: absolute;
+    left: 50px;
+    z-index: 1;
+}
+
+#tonton2 {
+    position: absolute;
+    right: 0;
+}
+
+#plans-section {
+    display: flex;
+    flex-direction: row;
+}
+
+#plans-section h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#plans-section a {
+    text-decoration: none;
+}
+
+.plans {
+    width: 25vw;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+.plans i {
+    transition: all 0.3s;
+}
+
+.plans:hover i {
+    transform: scale(1.1, 1.1);
+}
+
+.plan-icon {
+    color: white;
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+}
+
+#plan1 {
+    background-color: #aea0da;
+}
+
+#plan2 {
+    background-color: #ade6e4;
+}
+
+#plan3 {
+    background-color:#b9fdce;
+}
+
+#plan4 {
+    background-color: #fdc6cf;
+}
